@@ -32,10 +32,10 @@
 // | SHFT | Mute |  VOL- |  VOL+ |     |     |    | LFT | DWN | RGT |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp ESC     &kp N1     &kp N2        &kp N3           &kp N4    &kp N5      &trans    &trans    &trans    &trans  &trans &kp BSPC
-   &bt BT_CLR  &kp N6     &kp N7        &kp N8           &kp N9    &kp N0      &trans    &kp UP    &trans    &trans  &trans &trans
-   &kp LSHFT  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans    &trans      &kp LEFT  &kp DOWN  &kp RIGHT &trans  &trans &trans
-                     &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+    &kp ESC     &kp N1        &kp N2        &kp N3  &kp N4    &kp N5      &trans    &trans    &trans    &trans  &trans &kp BSPC
+   &bt BT_CLR  &kp N6        &kp N7        &kp N8  &kp N9    &kp N0      &trans    &kp UP    &trans    &trans  &trans &trans
+   &kp LSHFT   &kp LS(APOS)  &kp LS(NUHS)  &trans  &kp DLLR  &kp RA(Q)   &kp LEFT  &kp DOWN  &kp RIGHT &trans  &trans &trans
+                                 &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
                         >;
                 };
 
