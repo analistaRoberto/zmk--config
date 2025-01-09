@@ -27,13 +27,13 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// | ESC  |   1  |   2   |   3   |  4  |  5  |   |     |     |     |     |     | BSPC |
-// | BTCLR|   6  |   7   |   8   |  9  |  0  |   |     |  UP |     |     |     |      |
-// | SHFT | Mute |  VOL- |  VOL+ |     |     |   | LFT | DWN | RGT |     |     |      |
+// | ESC  |   1  |   2   |   3   |  4  |  5  |    |     |     |     |     |     | BSPC |
+// | BTCLR|   6  |   7   |   8   |  9  |  0  |    |     |  UP |     |     |     |      |
+// | SHFT | Mute |  VOL- |  VOL+ |     |     |    | LFT | DWN | RGT |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp ESC     &kp N1     &kp N2        &kp N3           &kp N4    &kp N5      &trans    &trans     &trans    &trans    &trans &kp BSPC
-   &bt BT_CLR  &kp N6     &kp N7        &kp N8           &kp N9    &kp N0      &trans    &kp UP     &trans    &trans   &trans
+   &kp ESC     &kp N1     &kp N2        &kp N3           &kp N4    &kp N5      &trans    &trans    &trans    &trans  &trans &kp BSPC
+   &bt BT_CLR  &kp N6     &kp N7        &kp N8           &kp N9    &kp N0      &trans    &kp UP    &trans    &trans  &trans 
    &kp LSHFT  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans    &trans      &kp LEFT  &kp DOWN  &kp RIGHT &trans  &trans &trans
                      &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
                         >;
@@ -46,10 +46,10 @@
 // | SHFT |  \  |     |     |     |     |   |  ?  |  =  |  ;  |  :  |  _  |  '   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp EXCL       &kp RA(Q)     &kp HASH  &kp DLLR  &kp PRCNT    &kp KP_PLUS    &kp APOS       &kp NUHS      &kp LPAR     &kp RPAR       &kp  DEL
-   &kp LSHFT &kp GRAVE      &kp LS(N1)    &trans    &trans    &trans       &kp NUBS       &kp LS(NUBS)   &kp LS(APOS)  &kp LS(NUHS)  &kp LS(MINUS) &kp LS(N2)
+   &kp  TAB  &kp EXCL       &kp RA(Q)     &kp HASH  &kp DLLR  &kp PRCNT    &kp KP_PLUS    &kp APOS      &kp NUHS      &kp LPAR     &kp RPAR       &kp  DEL
+   &kp LSHFT &kp GRAVE      &kp LS(N1)    &trans    &trans    &trans       &kp NUBS       &kp LS(NUBS)   &kp LS(APOS)  &kp LS(NUHS) &kp LS(MINUS) &kp LS(N2)
    &kp LCTRL &kp RA(MINUS)  &trans &trans &trans    &trans    &trans       &kp LS(MINUS)  &kp LS(N0)     &kp LS(COMMA) &kp LS(DOT)  &kp LS(FSLH)   &kp MINUS
-                             &kp LGUI &trans   &kp SPACE     &kp RET   &trans    &kp RALT
+                                        &kp LGUI &trans   &kp SPACE      &kp RET   &trans    &kp RAL
                         >;
                 };
         };
